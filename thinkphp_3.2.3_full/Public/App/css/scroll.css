@@ -1,0 +1,204 @@
+body {
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, arial, Helvetica, sans-serif;
+	font-size: 14px;*/
+}
+* a {
+	position: relative
+}
+.featureBox {
+	overflow: hidden;
+	float: left;
+/*	width: 280px;
+	height: 230px;*/
+}
+a {
+	font-size: 14px;
+	color: #000;
+	CURSOR: pointer
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+	outline-style: none
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+a:active {
+	color: #333;
+	text-decoration: none;
+	outline-style: none
+}
+a IMG {
+	border-bottom-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none
+}
+#featureContainer {
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	margin: 0px auto;
+	width: 1168px;
+	font-size: 80%;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted
+}
+#wrap {
+	overflow: hidden
+}
+#load {
+	background-image: url(/Public/App/img/loader32x32.gif);
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	text-indent: -9999px;
+	margin: 0px auto;
+	width: 923px;
+	DISPLaY: none;
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	height: 100px;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted
+}
+#feature {
+	border-bottom: #999 0px dotted;
+	position: relative;
+	border-left: #999 0px dotted;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted
+}
+#feature .button {
+	border-bottom: #999 0px dotted;
+	position: absolute;
+	border-left: #999 0px dotted;
+	width: 840px;
+	border-top: #999 0px dotted;
+	top: 72px;
+	border-right: #999 0px dotted;
+	left: 0px
+}
+#feature .prev {
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	text-indent: -9999px;
+	width: 30px;
+	DISPLaY: block;
+	background: url(/Public/App/img/feature_left.gif) center top;
+	float: left;
+	height: 48px;
+	border-top: #999 0px dotted;
+	top: -125px;
+	border-right: #999 0px dotted
+}
+#feature .next {
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	text-indent: -9999px;
+	width: 30px;
+	DISPLaY: block;
+	background: url(/Public/App/img/feature_right.gif) center top;
+	float: right;
+	height: 48px;
+	border-top: #999 0px dotted;
+	top: -125px;
+	border-right: #999 0px dotted
+}
+#feature .prev:hover {
+	background-position: center bottom
+}
+#feature .next:hover {
+	background-position: center bottom
+}
+.featureUL {
+	border-bottom: #000 0px dotted;
+	position: relative;
+	border-left: #000 0px dotted;
+	padding-bottom: 0px;
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	width: 2800px;
+	padding-right: 0px;
+	float: left;
+	border-top: #000 0px dotted;
+	border-right: #000 0px dotted;
+	padding-top: 0px;
+	left: 0px
+}
+.featureBox {
+	background-image: url(/Public/App/img/bg-featurebox.jpg);
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	
+	background-repeat: no-repeat;
+	float: left;
+	
+	overflow: hidden;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted;
+	padding-top: 20px;
+	margin-right:20px;
+}
+#botton-scroll {
+	z-index: 0;
+	border-bottom: #999 0px dotted;
+	border-left: #999 0px dotted;
+	margin: 0px auto;
+	width: 1050px !important;
+	float: left;
+	height: 200px;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted
+}
+#block {
+	z-index: 0;
+	border-bottom: #999 0px dotted;
+	position: relative;
+	border-left: #999 0px dotted;
+	padding-bottom: 20px;
+	margin: 0px 25px;
+	padding-left: 0px;
+	width: 1050px;
+	padding-right: 0px;
+	height: 180px;
+	font-size: 70%;
+	overflow: hidden;
+	border-top: #999 0px dotted;
+	border-right: #999 0px dotted;
+	padding-top: 0px
+}
+#block .box {
+	border-bottom: #d8d8d8 0px solid;
+	border-left: #d8d8d8 0px solid;
+	padding-bottom: 10px;
+	margin: 0px 5px;
+	width: 240px;
+	float: left;
+	height: 150px;
+	border-top: #d8d8d8 0px solid;
+	border-right: #d8d8d8 0px solid;
+	
+}
+.geng{ padding:0 20px;}
+.geng p{
+	 font-size:17px; float:left;
+	color:#ee5f03;}
+.geng a{ padding-top:6px; display:block; float:right; color:#a0a0a0}
+#block .box .feature-title {
+	font-size: 140%;
+	font-weight: normal
+}
+#block .box .feature-thumb {
+	width: 240px;
+	margin-bottom: 5px;
+	float: left;
+	height: 150px
+}

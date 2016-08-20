@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</head>
+<style>
+    #map_form{
+        position: relative;
+        width: 600px;
+        height: 300px;
+        border:5px solid cornflowerblue;
+        border-radius: 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .map_table tr{
+        height: 50px;
+    }
+    .map_table{
+        text-align: center;
+        display: inline-block;
+    }
+    .map_table td input{
+        border-radius: 5px;
+    }
+
+</style>
+<body>
+<form id="map_form">
+    <h1>地图标记</h1>
+    <table class="map_table">
+        <tr>
+            <td class="panel-title">用户名：</td>
+            <td><input type="text" placeholder="请输入用户名" name="username"></td>
+            <td class="text-danger">*</td>
+        </tr>
+        <tr>
+            <td class="title">密码：</td>
+            <td><input type="password" placeholder="请输入您的密码" name="pwd"></td>
+            <td class="text-danger">*</td>
+        </tr>
+        <tr>
+            <td><button id="map_login" class="btn btn-default" type="button">登录</button></td>
+            <td><button id="map_register" class="btn btn-default" href="/html/register" type="button">马上注册</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+<script>
+    $("#map_login").on('click',function () {
+        var lg = $('#map_form').serializeArray();
+        var validation = {
+            'username' :'请输入您的用户名',
+            'pwd' : '请输入密码'
+        }
+        for (var x in lg) {
+            if (lg[x]['value'] == '') {
+                $.tipShow(validation[lg[x]['name']]);//显示对应的提示信息
+                $("[name=" + lg[x]['name'] + "]")[0].focus();//光标锁定
+                return false;
+            }
+        }
+
+    })
+</script>
+</html>

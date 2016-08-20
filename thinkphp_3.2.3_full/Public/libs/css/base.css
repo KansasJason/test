@@ -1,0 +1,7 @@
+#page-wrapper{
+	overflow: scroll;
+}
+table.table-layout-fixed {
+	table-layout: fixed;
+}
+table.table-layout-fixed td {word-break: break-all; word-wrap:break-word;}

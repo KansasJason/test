@@ -1,0 +1,643 @@
+/*header*/
+.navbar-inverse {
+    background: #1DBCA8;
+    border: #1DBCA8;
+    border-radius: 0px;
+}
+.container-fluid {
+    width: 980px;
+}
+.navbar-nav li {
+    position: relative;
+}
+.arrow-up {
+    width:0; 
+    height:0; 
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.navbar-inverse .container-fluid .collapse a,.navbar-inverse .container-fluid a{
+    color: #fff;
+}
+.navbar-inverse .container-fluid .dropdown .dropdown-menu a{
+    color:#000;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background: #55E8D5;
+}
+/*banner*/
+.main{
+	padding: 20px 10px;
+}
+.carousel-inner .item img{
+	height: 350px;
+}
+.carousel-control{
+	font-size: 80px;
+	line-height: 210px;
+}
+/*登录注册*/
+.form-box{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: rgba(51,51,51,.7);
+    width: 330px;
+    overflow: hidden;
+    z-index: 99;
+}
+.form-box .login{
+    width: 100%;
+}
+.form-box label{
+    color:#ccc;
+}
+.checkbox span{
+    float: right;
+    color: #ccc;
+    font-size: 16px;
+}
+.form-box .form-horizontal{
+    float: left;
+    padding: 20px 30px 10px;
+}
+.rand img{
+    width: 80px;
+    height:30px;
+    margin: 0 10px;
+}
+/*mian*/
+ul li{
+	list-style: none;
+}
+.row{
+	padding: 15px;
+}
+.row h2{
+	text-align: center;
+	font-family: "黑体";
+	padding-bottom: 20px;
+}
+.row h3{
+	font-family: "微软雅黑";
+	color: #55E8D5;
+}
+.item-list{
+	padding: 0;
+	font-family:'微软雅黑';
+}
+.col-md-3,.col-md-4{
+	text-align: center;
+	padding-top: 10px;
+}
+.col-md-3 .glyphicon,.col-md-4 .glyphicon{
+	font-size: 50px;
+	color: #1DBCA8;
+}
+.f-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+.radio-label{
+    padding-left: 20px;
+}
+.findpsw-box{
+    width: 650px;
+    margin: 0 auto;
+}
+.findpsw-box .panel-body{
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding-top: 30px;
+}
+#myTab{
+    font-weight: bold;
+    font-size: 21px;
+}
+.glyphicon-ok-sign{
+    font-size: 25px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.banner-img{
+    display: block;
+    height: 350px !important;
+}
+.findpwd-title{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*jobs search*/
+.search-jobs{
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+}
+.select-title{
+    float:left;
+        line-height: 30px;
+}
+.search-jobs .form-control{
+    height: 30px;
+    padding: 3px 12px;
+    position: relative;
+}
+.search-jobs .col-sm-3,.col-sm-8{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 5px;
+}
+.search-jobs .form-group{
+    padding: 0;
+}
+.search-jobs button{
+   float: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+}
+.search-jobs p{
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    display: block;
+}
+.select-jobs1,.select-jobs2{
+    cursor: pointer;
+}
+.select-jobs1 .glyphicon-triangle-bottom,.select-jobs2 .glyphicon-triangle-bottom{
+   float: left;
+   margin-right: 7px;
+   margin-top: 2px;
+}
+#selectBranch1{
+    width: 900px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    cursor: default;
+    top: 30px;
+    left: 15px;
+    display: none;
+}
+#selectBranch2{
+    width: 900px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    cursor: default;
+    top: 30px;
+    left: -445px;
+    display: none;
+}
+.bg-shadow{
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background-color: #EDEDED;
+     position: absolute;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    display: none;
+}
+.text2,.text1{
+    float: left;
+    display: block;
+    width: 258px;
+    height: 18px;
+    overflow: hidden;
+}
+.table-jobs{
+    overflow: hidden;
+}
+.table-jobs>tbody>tr>th{
+   text-align: right !important;
+    vertical-align: middle;
+}
+.table-jobs ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.table-jobs ul li{
+    float: left;
+    width: 33.3%;
+    list-style: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.table-jobs ul li:hover{
+    background-color: #FFEDBD;;
+}
+#jobs-title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+    position: relative;
+}
+.confirm-select{
+    position: absolute;
+    right: 110px;
+    top: -3px
+}
+.confirm-select2{
+    position: absolute;
+    right: 117px;
+    top: -3px
+}
+a.cancel-select{
+    position: absolute;
+    right: 33px;
+    top: -3px;
+    color: black;
+}
+#jobs-title span{
+    float: right;
+    cursor: pointer
+}
+.search-btn{
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.red{
+    color: red;
+}
+.joblist{
+    width: 75%;
+    overflow: hidden;
+    float: left
+}
+.joblist h5{
+   color: #7D7D7D
+}
+.joblist .media-body{
+    width: 550px;
+}
+.joblist .media-footer{
+    background: #F2F2F2;
+    color: #7D7D7D;
+    padding: 4px;
+    border-bottom: 1px #ccc dashed;
+    margin-top: 5px;
+    display:block;
+    white-space:nowrap;
+     overflow:hidden; 
+     text-overflow:ellipsis;
+     width: 700px;
+}
+.joblist .media-body p a{
+    color: #777
+}
+.joblist h5 em{
+    margin-left: 5px;
+     margin-right: 5px;
+}
+.homepage-ad{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    padding-left: 37px;
+}
+.homepage-ad ul img{
+    width: 200px;
+    height: 115px;
+    border-radius: 0px;
+}
+.homepage-ad ul{
+    padding: 0;
+}
+.homepage-ad ul li:first-child{
+    position: relative;
+    margin-top: 0px
+}
+.homepage-ad ul li{
+    position: relative;
+    margin-top: 15px
+}
+.homepage-ad ul li .tips{
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.fair-info-panel img{
+    width: 58px;
+    max-width: 58px;
+}
+.fair-info-panel label{
+        color: #a6a6a6;
+}
+.fair-info-panel .media-item{
+    width: 320px;
+    overflow: hidden;
+    float: left
+}
+.fair-info-title {
+    margin-bottom: 20px;
+}
+.jobs-company-logo{
+    height: 78px;
+    border-radius: 0px;
+}
+.search-wrap{
+    border-color: #eea236;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.jobs-search-title{
+    position: absolute;
+    background-color: rgb(255,99,41);
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    left: 10px;
+    top: -15px;
+    z-index: 100;
+}
+/**招聘*/
+#sojob .sojob-main .no-result {
+    padding-top:0
+}
+#sojob .sojob-main .search-more {
+    text-align:center;
+    padding:25px 0 40px
+}
+#sojob .sojob-main .search-more a {
+    color:#17B19D;
+    font-size:16px;
+    font-family:"microsoft yahei";
+    text-align:center;
+    outline:0
+}
+#sojob .sojob-main .search-more a:focus,#sojob .sojob-main .search-more a:hover {
+    text-decoration:none
+}
+#sojob .sojob-main .search-more a em {
+    transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    margin-left:5px;
+}
+#sojob .sojob-main .search-more a:hover {
+    color:#ff7f00;
+}
+#sojob ul.sojob-list{
+    padding: 0;
+    margin: 0;
+}
+#sojob ul.sojob-list li {
+    position:relative;
+    margin-bottom:12px;
+    height:90px;
+    border-top: 1px solid #e5e5e5;
+    list-style: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+#sojob ul.sojob-list li a {
+    text-decoration:none
+}
+#sojob ul.sojob-list li .icon {
+    position:absolute;
+    right:0;
+    top:0;
+    width:0;
+    height:0;
+    border-top:42px solid #ff6363;
+    border-left:42px solid transparent;
+    cursor:pointer
+}
+#sojob ul.sojob-list li .icon b {
+    position:absolute;
+    top:-41px;
+    left:-19px;
+    font-size:14px;
+    font-family:'Microsoft Yahei';
+    color:#fff
+}
+#sojob ul.sojob-list li .icon-yellow-triangle {
+    border-top-color:#fec144
+}
+#sojob ul.sojob-list li .icon-title.icon-yellow-triangle {
+    background-color:#fec144
+}
+#sojob ul.sojob-list li .icon-blue-triangle {
+    border-top-color:#2c99fe
+}
+#sojob ul.sojob-list li .icon-title.icon-blue-triangle {
+    background-color:#2c99fe
+}
+#sojob ul.sojob-list li .sojob-item-main {
+    padding:12px 12px 0 12px
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info {
+    text-decoration:none;
+    color:#666
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info h3:hover,#sojob ul.sojob-list li .sojob-item-main a .company-name:hover {
+    color:#ff7f00
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info.nohover,#sojob ul.sojob-list li .sojob-item-main .nohover span {
+    cursor:text
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info.nohover .company-name:hover {
+    color:#666
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info p {
+    margin-top:12px
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info h3 {
+    line-height:21px;
+    margin:0;
+    width:300px;
+    font-size:18px;
+    font-family:'Microsoft Yahei';
+    font-weight:400;
+    color:#3d9ccc;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info h3 a {
+    color:#444
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info h3 a:hover {
+    color:#ec6106
+}
+#sojob ul.sojob-list li .sojob-item-main h3 em {
+    margin:-3px 0 0 5px;
+    vertical-align:middle;
+    font-size:14px;
+    font-family:simsun;
+    color:#666
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info {
+    float:left;
+    width: 340px;
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .condition {
+    height:20px;
+    margin-top:14px;
+    font-family:'Microsoft Yahei';
+    font-size:16px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .condition a.area {
+    cursor:default;
+    color:#666;
+    display:inline;
+    padding:0 10px;
+    border-left:1px solid #ccc
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .condition span.area {
+    cursor:default;
+    color:#666
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .condition>p {
+    margin-top:0;
+    width:1000px;
+    height:20px
+}
+#sojob ul.sojob-list li .sojob-item-main .time-info {
+    color:#999;
+    margin-top: 17px;
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .time-info time {
+    padding-right:12px
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .time-info span {
+    padding-left:12px;
+    border-left:1px solid #ccc
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info .time-info span.feelback {
+    padding:2px 5px;
+    border:1px solid #fea9a9;
+    border-radius:3px;
+    color:#fd5353
+}
+#sojob ul.sojob-list li .sojob-item-main .job-info h3 a {
+    text-decoration:none;
+    display:inline-block;
+    max-width:330px;
+    vertical-align:middle;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info {
+    float:right;
+    padding: 0 5px 3px 15px;
+    width: 230px;
+    height:66px;
+    border-left:1px dotted #8197a2;
+    font-family:'Microsoft Yahei';
+    font-size:14px
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .company-name {
+    margin-top:3px;
+    height:18px;
+    font-size:14px;
+    color:#333;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .company-name a {
+    color:#444
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .company-name a:hover {
+    color:#f60
+}
+#sojob ul.sojob-list li .sojob-item-main .nohover .company-name a:hover {
+    color:#f60
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .field-financing {
+    height:20px;
+    margin-top:9px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color:#666
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .temptation {
+    height:30px;
+    overflow:hidden;
+    margin-top:9px
+}
+#sojob ul.sojob-list li .sojob-item-main .company-info .temptation span {
+    float:left;
+    padding:2px 10px;
+    border:1px solid #e1f2fa;
+    margin-right:6px;
+    margin-bottom:10px;
+    font-size:12px;
+    background-color:#edf9ff;
+    color:#3d9ccc
+}
+#sojob ul.sojob-list li .sojob-item-main p span {
+    display:inline;
+    padding:0 10px;
+    border-left:1px solid #ccc
+}
+#sojob ul.sojob-list li .sojob-item-main p span:first-child {
+    padding-left:0;
+    border:0
+}
+.item-tit{
+        margin: 30px 0px 13px 0px;
+    font-size: 19px;
+    border-left: 3px solid #F96400;
+    padding-left: 5px;
+}
+.company_check {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: #FFF;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+}
+.wszl {
+    width: 647px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.zhaopin_image{
+    width:980px;
+    height:60px;
+    margin-top:30px;
+    
+    }
+.zhaopin_image  img{
+    margin:0 auto;
+    display:block;
+    }
+.required{color: red;}
+.footer {
+    margin-top: 50px;
+}
+.company_check .form-horizontal .control-label{
+    font-weight: normal;
+}

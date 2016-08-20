@@ -1,0 +1,42 @@
+.page{
+  overflow: hidden;
+  margin: 10px;
+}
+.page>div{
+  overflow: hidden;
+  padding-left: 1px;
+}
+.page span{
+  background-color: #ec6106;
+  border: 1px solid #ddd;
+  border-color: #ec6106;
+  display: block;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #fff;
+  float: left;
+  text-decoration: none;
+}
+.page a{
+  display: block;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #ec6106;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.page a:hover{
+  background-color: #ddd;
+}
+.page .next{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.page .prev{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}

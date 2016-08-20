@@ -1,0 +1,208 @@
+/* CSS Document */
+*{
+	 padding:0px;
+	 margin:0px;
+ }
+ body{
+	 overflow-x:hidden;
+	 font-family:"微软雅黑";
+	 }
+ li{
+	 list-style:none;
+	}
+a{
+	text-decoration:none;
+  }
+  
+.top{
+	height:75px;
+	background:#303a40;
+	}
+.top_01{
+	  width:1270px;
+	  height:75px;
+	  margin:0 auto;
+	 /* background:red;*/
+
+	}
+.top_01 span{
+	height:75px;
+	line-height:75px;
+	float:left;
+	}
+.top_02{
+	float:left;
+	width:448px;
+	height:75px;
+	/*background:blue;*/
+    padding-left:67px;
+	}
+.top_02 ul{
+	width:448px;
+	height:75px;
+
+	}
+.top_02 ul li{
+	float:left;
+	height:75px;
+	line-height:75px;
+	
+	margin-right:28px;
+	}
+.top_02 ul li a{
+	font-size:20px;
+	
+	color:#FFF;
+	}
+
+/**搜索**/
+.search{
+	float:left;
+	margin-top:23px;
+	margin-left:60px;
+	position:relative;
+	}
+.ipt{
+	border:1px solid #d9d9d9;
+	width:275px;
+	height:31px;
+	padding-left: 10px ;
+	
+	}
+.sub{
+	background:url(/Public/App/img/search.png) no-repeat top center;
+	width:67px;
+	height:29px;
+	border:0px;
+	position:absolute;
+	right:0px;
+	top:1px;
+	}
+.top_right{
+	height:75px;
+	float:left;
+	margin-left:45px;
+	/*background:#999;*/
+	}
+.top_right .name{
+	color:#FFF;
+	font-size:17px;
+	
+	
+	}
+.top_right .name a{
+	color:#FFF;
+	font-size:17px;
+	}
+.top_right .name_01{
+	margin-left:5px;
+	}
+.top_right .name_02{
+	margin-left:25px;
+	}
+ /*header end*/
+ .content-wrap{
+	width:960px;
+	margin:0 auto;
+	margin-top:26px;
+	min-height: 420px;
+	/*background:#FCF;*/
+}
+/*清除浮动代码*/ 
+.content-wrap:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.content-wrap{zoom:1} 
+/*content  end*/
+/**底部**/
+.footer{
+	height:182px;
+	background:#303a40;
+	}
+.footer2{
+	width:1272px;
+	height:182px;
+	margin:0 auto;
+	/*background:blue;*/
+	}
+.footer3_left{
+	width:630px;
+	height:182px;
+	float:left;
+	/*background:red;*/
+	}
+	
+.footer3_left ul {
+	width:630px;
+	overflow: hidden;
+    zoom: 1;
+	}
+.footer3_left ul  li{
+	float:left;
+	margin-top:22px;
+	margin-left:33px;
+	margin-bottom:22px;
+	}
+.footer3_left ul  li a{
+	font-size:18px;
+	color:#FFF;
+	}
+
+.footer3_left p{
+	font-size:18px;
+	color:#FFF;
+    margin-left:33px;
+	
+	}
+.footer3_right{
+	height:182px;
+	width:80px;
+	float:right;
+	margin-right:28px;
+	/*background:#3F3*/
+	}
+.footer3_right p img{
+    margin-top:22px;
+	
+	}
+#app{
+	font-size:16px;
+	color:#FFF;
+	text-align:center;
+	}
+
+.qz .img {
+	position: relative;
+	overflow: hidden;
+}
+.qz .img a {
+	display: block;
+}
+.qz img.list-logo {
+	position: absolute;
+	z-index: -1;
+	width: 140px;
+	margin-top: 6px;
+}
+.qz img.list-fair-logo {
+	/*margin-left: 25px;*/
+	/*width: 80px;*/
+
+}
+
+.Validform_loading, .Validform_wrong {
+	color: #ffb200 !important;
+}
+div.Validform_wrong {
+	padding-left: 26px;
+	background: url('/Public/App/img/exclamation.png') no-repeat left;
+	color: #ffb200;
+
+}
+div.verify-code-form-group {
+	position: relative;
+}
+body .verify-code-form-group .man1 .Validform_checktip {
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+

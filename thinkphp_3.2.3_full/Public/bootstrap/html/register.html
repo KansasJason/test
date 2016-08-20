@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</head>
+<style>
+    #map{
+        position: relative;
+        width: 600px;
+        height: 300px;
+        border:5px solid cornflowerblue;
+        border-radius: 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .map_table tr{
+        height: 50px;
+    }
+    .map_table{
+        text-align: center;
+        display: inline-block;
+    }
+    .map_table td input{
+        border-radius: 5px;
+    }
+
+</style>
+<body>
+<form id="map">
+    <h1>用户注册</h1>
+    <table class="map_table">
+        <tr>
+            <td class="panel-title">用户名：</td>
+            <td><input type="text" placeholder="请输入用户名" name="title"></td>
+            <td class="text-danger">*</td>
+        </tr>
+        <tr>
+            <td class="title">密码：</td>
+            <td><input type="password" placeholder="请输入您的密码" name="pwd"></td>
+            <td class="text-danger">*</td>
+        </tr>
+        <tr>
+            <td class="title">确认密码：</td>
+            <td><input type="password" placeholder="请再次输入您的密码" name="repwd"></td>
+            <td class="text-danger">*</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class="btn btn-default" type="button">点击注册</button></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
